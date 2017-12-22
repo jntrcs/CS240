@@ -1,0 +1,78 @@
+One page of notes--generic java knowledge (how to read in a file)
+You can put delimiter patterns, but no pseudocode or code
+
+Read whole dictionary into big set--only enter words of right length
+
+Get user guess
+partition subset-subset of all no A words, subset of starts with A, subset with ends in double A,
+Find largest subset, use it for the next round.
+Usa a map to compute which set is the largest
+There's potentially 2^n potential partitions, so we need to use a 
+map between the string and set of strings, key represents the pattern.
+
+Method: makePattern(word, letterguess)
+iterate over characters, replace non-matches with -, replace matches with character.
+
+If string is in map, add word. If it's not, add key and then add it.
+Trees are slower and use more memory, hash map uses more memory and goes faster
+
+Collections are containers
+Heiarchy
+Interface: collection. Methods: add, remove, size, etc
+
+Interface Map--different than collections. Key-value pairs, Keys are unique
+
+Interface Iterator--object that allows you to enumerate over a collection
+
+List Interface--a sequence of elements accessed by index (get(index), set(index, value)
+
+Two implementations: ArrayList(resizable Array implementation)
+LinkedList--you can add into the middle, etc, but randomly accessing in the middle sucks
+linkedlist has nodes which take memory, but arrays have unused spaces
+ListIterator is special because it can move forward and back
+
+Set--a collection of unique values, no order
+add(), remove(), contains()
+
+Hashset(hash table implementation)
+TreeSet(bst implementation)
+LinkedHashSet(hash table + linked list impl)--when you run an iterator it gives them back in the same order that they were inserted
+tree sets are actually ordered
+
+Queue
+First in first out, priority queue, stack (last in first out)
+A collection designed for holding elements prior to processing
+add(), peek(), remove()
+
+ArrayDeque(fifo, resizable array impl) (stick stuff in the middle)
+LinkedList(fifo, linkedlist implementation)
+PriorityQueue(priority queue, binary heap impl)
+
+Deque--add and remove at both ends
+ArrayDeque, LinkedList
+
+Java's stack class is deprecated. Use a deque instead.
+
+Java's vector class is dead meat
+
+Maps
+put(key, value), get(key), contains(key), remove(key), keySet(), value(), entrySet()
+EntrySet gives you back a set of key value objects 
+values returns values in a collection, use an iterator to go through them
+
+We need to clearly define what makes our objects equal
+You must override .equals() and .hashcode() at the same time
+You'll never be able to find things in your hashset.
+
+TREES--objects going into tree must be comparable
+must implement comparable<>
+@Override
+public int compareTo(Part other)
+{
+if (number< other.number) 
+return -1;
+return negative for less than, return greater than for more, return 0 for equal
+
+If you want to change an object already in a tree, you must remove it, change it, insert if. Same with hash table
+
+

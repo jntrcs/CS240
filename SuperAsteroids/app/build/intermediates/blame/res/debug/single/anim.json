@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/slide_out_down.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/src/main/res/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/slide_in_up.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/src/main/res/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/src/main/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/jntrcs/240Projects/SuperAsteroids/app/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/home/jntrcs/240Projects/SuperAsteroids/app/src/main/res/anim/slide_in_right.xml"
+    }
+]
